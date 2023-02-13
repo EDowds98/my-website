@@ -5,7 +5,7 @@
         </h2>
         <div class="grid sm:grid-cols-3 grid-cols-1 mx-auto font-ibm object-center items-center justify-center content-center">
             <a href="https://www.linkedin.com/in/eric-dowds-10216b1a2/" class="mx-auto my-6" target="_blank">
-                <img src="../assets/linkedin-logo.jpeg" class="h-52 w-52"/>
+                <img src="../assets/linkedin-logo.jpg" class="h-52 w-52"/>
             </a>
             <a href="https://github.com/EDowds98" class="mx-auto my-6" target="_blank">
                 <img src="../assets/github-logo.png" class="h-52 w-52"/>
