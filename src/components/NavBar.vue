@@ -27,15 +27,11 @@ export default {
 </script>
 
 <template>
-    <nav class="grid grid-cols-2 py-4 px-4 text-center bg-davys-gray text-beige font-ibm">
-        <a class="py-4 px-4 hover:bg-glaucous" @click="toggleView('renderProjects')">My Projects</a>
-        <a class="py-4 px-4 hover:bg-glaucous" @click="toggleView('renderContact')">Get in touch!</a>
+    <nav class="grid grid-cols-3 py-4 px-4 text-center bg-davys-gray text-beige font-ibm">
+        <RouterLink to="/projects" class="py-4 px-4 hover:bg-glaucous">My Projects</RouterLink>
+        <RouterLink to="/contact" class="py-4 px-4 hover:bg-glaucous">Get in touch!</RouterLink>
+        <RouterLink to="/blog" class="py-4 px-4 hover:bg-glaucous">Blog</RouterLink>
         <img />
     </nav>
-
-    <Teleport to="#app">
-        <Projects v-if="renderProjects" />
-        <Contact v-if="renderContact" />
-    </Teleport>
 
 </template>

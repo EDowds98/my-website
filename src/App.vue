@@ -6,9 +6,11 @@ import Intro from './components/Intro.vue';
 <template>
   <header>
     <NavBar />
+    <Intro />
+    <RouterView />
   </header>
 
-  <Intro v-once />
+
 
   <footer class="font-ibm object-bottom text-center py-2 bg-beige text-black-olive fixed bottom-0 w-screen">
     Built with Vue and Tailwind
