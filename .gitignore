@@ -28,3 +28,6 @@ coverage
 *.sw?
 *.zip
 *.mvn
+
+.flaskenv
+venv/
