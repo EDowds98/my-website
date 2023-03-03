@@ -11,4 +11,12 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
+  server: {
+    proxy : {
+      '/blog': {
+        target: 'http://localhost:8080',
+        ws: true,
+      }
+    }
+  }
 });
