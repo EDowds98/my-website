@@ -28,6 +28,8 @@ coverage
 *.sw?
 *.zip
 *.mvn
+.vim
 
 .flaskenv
 venv/
+__pycache__
